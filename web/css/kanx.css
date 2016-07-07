@@ -1,0 +1,50 @@
+body {
+	background-color: #f2f2f2;
+}
+
+#main-960 {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.widget {
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+	border-bottom: 1px solid black;
+}
+
+.widget > span.header {
+	font-weight: bold;
+	font-size: 2em;
+	vertical-align: middle;
+}
+
+.half {
+	display: inline-block;
+	width: 49%;
+}
+
+
+.forth {
+	display: inline-block;
+	width: 24%;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-center {
+	text-align: center;
+}
+
+#notification {
+	position: absolute;
+	top: 0;
+	text-align: center;
+	width: 100%;
+	background: white;
+}

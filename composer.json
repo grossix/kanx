@@ -1,0 +1,18 @@
+{
+	"require": {
+		"react/datagram": "^1.1",
+		"react/socket": "^0.4.3",
+		"react/socket-client": "^0.5.0",
+		"xpaw/php-source-query-class": "^1.0",
+		"xpaw/steamid": "^1.0",
+		"ehesp/steam-login": "^1.1",
+		"doctrine/orm": "^2.5",
+		"altorouter/altorouter": "^1.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"": ["source/", "source/messages", "source/models"],
+			"Controller\\": ["source/controllers"]
+		}
+	}
+}
